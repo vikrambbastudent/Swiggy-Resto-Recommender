@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # 🍽️ SwiggyEats-Recommender  
+=======
+# 🍽️ Swiggy-Resto-Recommender  
+>>>>>>> 72ca839a1efb8785682d5761f2e312e4a270c24b
 
 This project is a **machine learning-based recommendation system** built on real-world Swiggy-like restaurant data.  
 It predicts and recommends restaurants to users based on **city, cuisine, cost, and rating**, leveraging clustering techniques.  
@@ -60,6 +64,7 @@ Example recommendation for:
 - **Rating:** 5.0  
 
 **Recommended Restaurants:**
+<<<<<<< HEAD
 - New Pal Hotel  
 - Govinda Dhaba  
 - BENZOZ PIZZA  
@@ -70,6 +75,18 @@ Example recommendation for:
 - Paratha House  
 - Food Junction  
 - Ji Hujur  
+=======
+- Garage Kitchen  
+- Hotpot  
+- The Napples - Hotel Amalfi Grand  
+- Dangus 
+- Meal On Time
+- Sundae Everyday Ice Creams
+- Bollywood Treats - Hotel Maurya 
+- Hot Grills
+- Foodie 18 
+- Hi Q Foods
+>>>>>>> 72ca839a1efb8785682d5761f2e312e4a270c24b
 
 ---
 
@@ -86,5 +103,10 @@ Example recommendation for:
 ## ⚙️ How to Run
 ### 1. Clone Repository
 ```bash
+<<<<<<< HEAD
 git clone https://github.com/yourusername/swiggy-recommendation-system.git
 cd swiggy-recommendation-system
+=======
+git clone https://github.com/yourusername/Swiggy-Resto-Recommender.git
+cd swiggy-resto-recommender
+>>>>>>> 72ca839a1efb8785682d5761f2e312e4a270c24b
