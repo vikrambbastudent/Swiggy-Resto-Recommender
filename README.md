@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# 🍽️ SwiggyEats-Recommender  
-=======
 # 🍽️ Swiggy-Resto-Recommender  
->>>>>>> 72ca839a1efb8785682d5761f2e312e4a270c24b
 
 This project is a **machine learning-based recommendation system** built on real-world Swiggy-like restaurant data.  
 It predicts and recommends restaurants to users based on **city, cuisine, cost, and rating**, leveraging clustering techniques.  
@@ -12,11 +8,11 @@ The project includes both a **Jupyter Notebook (model training)** and a **Stream
 ---
 
 ## 🚀 Features
-- 📊 Data cleaning & preprocessing of raw restaurant data
-- 🍕 Recommendation system that suggests top restaurants
-- 🏙️ City-wise restaurant filtering
-- 📈 Model training & evaluation (Silhouette Score for clustering quality)
-- 🖥️ Interactive UI built with Streamlit
+- 📊 Data cleaning & preprocessing of raw restaurant data  
+- 🍕 Recommendation system that suggests top restaurants  
+- 🏙️ City-wise restaurant filtering  
+- 📈 Model training & evaluation (Silhouette Score for clustering quality)  
+- 🖥️ Interactive UI built with Streamlit  
 
 ---
 
@@ -63,35 +59,22 @@ Example recommendation for:
 - **Cost:** 1000.00  
 - **Rating:** 5.0  
 
-**Recommended Restaurants:**
-<<<<<<< HEAD
-- New Pal Hotel  
-- Govinda Dhaba  
-- BENZOZ PIZZA  
-- 0612 ROAD CHEF [Open Air]  
-- Food Hut  
-- Old Champaran Meat House  
-- Rollacosta  
-- Paratha House  
-- Food Junction  
-- Ji Hujur  
-=======
+✅ **Recommended Restaurants:**
 - Garage Kitchen  
 - Hotpot  
 - The Napples - Hotel Amalfi Grand  
-- Dangus 
-- Meal On Time
-- Sundae Everyday Ice Creams
-- Bollywood Treats - Hotel Maurya 
-- Hot Grills
-- Foodie 18 
-- Hi Q Foods
->>>>>>> 72ca839a1efb8785682d5761f2e312e4a270c24b
+- Dangus  
+- Meal On Time  
+- Sundae Everyday Ice Creams  
+- Bollywood Treats - Hotel Maurya  
+- Hot Grills  
+- Foodie 18  
+- Hi Q Foods  
 
 ---
 
 ## 🛠️ Tech Stack
-- **Python 3.10+**
+- **Python 3.10+**  
 - **Pandas, NumPy** → Data preprocessing  
 - **Scikit-learn** → ML models & evaluation  
 - **Matplotlib / Seaborn / Plotly** → Visualization  
@@ -100,13 +83,4 @@ Example recommendation for:
 
 ---
 
-## ⚙️ How to Run
-### 1. Clone Repository
-```bash
-<<<<<<< HEAD
-git clone https://github.com/yourusername/swiggy-recommendation-system.git
-cd swiggy-recommendation-system
-=======
-git clone https://github.com/yourusername/Swiggy-Resto-Recommender.git
-cd swiggy-resto-recommender
->>>>>>> 72ca839a1efb8785682d5761f2e312e4a270c24b
+📌 *Built with ❤️ for food lovers, powered by Machine Learning & Streamlit.*
