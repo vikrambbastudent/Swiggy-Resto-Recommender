@@ -83,4 +83,28 @@ Example recommendation for:
 
 ---
 
+## 📥 How to Clone this Repository
+
+To get a local copy up and running, run the following commands:
+
+```bash
+# Clone the repository
+git clone https://github.com/vikrambbastudent/Swiggy-Resto-Recommender.git
+
+# Navigate into the project directory
+cd Swiggy-Resto-Recommender
+
+# (Optional) Create and activate a virtual environment
+python -m venv myenv
+myenv\Scripts\activate     # For Windows
+source myenv/bin/activate  # For Linux/Mac
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit app
+streamlit run app/streamlit_app.py
+
+---
+
 📌 *Built with ❤️ for food lovers, powered by Machine Learning & Streamlit.*
