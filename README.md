@@ -86,5 +86,5 @@ Example recommendation for:
 ## ⚙️ How to Run
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/swiggy-recommendation-system.git
-cd swiggy-recommendation-system
+git clone https://github.com/yourusername/Swiggy-Resto-Recommender.git
+cd swiggy-resto-recommender
