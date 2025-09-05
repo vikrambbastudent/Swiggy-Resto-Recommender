@@ -9,7 +9,7 @@ import base64
 # Page config MUST be first
 # ---------------------------
 st.set_page_config(
-    page_title="Swiggy Eats Recommender",
+    page_title="Swiggy Resto Recommender",
     page_icon="🍴",
     layout="wide"
 )
@@ -30,7 +30,7 @@ st.markdown(
 # ---------------------------
 # Sidebar Logo
 # ---------------------------
-logo_path = r"C:\Users\HP\SwiggyEats-Recommender\ChatGPT Image Sep 4, 2025, 03_02_30 PM.png"
+logo_path = r"C:\Users\HP\Swiggy-Resto-Recommender\logo.png"
 st.sidebar.image(logo_path, width=150)
 st.sidebar.markdown("## Filter Your Preferences")
 
@@ -45,7 +45,7 @@ def get_base64_image(image_path: str) -> str:
 # ---------------------------
 # Hero (cover image at very top, NO text overlay)
 # ---------------------------
-cover_path = r"C:\Users\HP\SwiggyEats-Recommender\Your paragraph text.png"
+cover_path = r"C:\Users\HP\Swiggy-Resto-Recommender\Your paragraph text.png"
 cover_base64 = get_base64_image(cover_path)
 
 st.markdown(
@@ -72,13 +72,13 @@ st.markdown("### Personalized Restaurant Recommendations based on City, Cuisine,
 # ---------------------------
 @st.cache_data
 def load_data():
-    return pd.read_csv(r"C:\Users\HP\SwiggyEats-Recommender\dataset\cleaned_csv1.csv")
+    return pd.read_csv(r"C:\Users\HP\Swiggy-Resto-Recommender\dataset\cleaned_csv1.csv")
 
 @st.cache_resource
 def load_models():
-    with open(r"C:\Users\HP\SwiggyEats-Recommender\models\encoder.pkl", "rb") as f:
+    with open(r"C:\Users\HP\Swiggy-Resto-Recommender\models\encoder.pkl", "rb") as f:
         encoders = pickle.load(f)
-    with open(r"C:\Users\HP\SwiggyEats-Recommender\models\kmeans_model.pkl", "rb") as f:
+    with open(r"C:\Users\HP\Swiggy-Resto-Recommender\models\kmeans_model.pkl", "rb") as f:
         kmeans = pickle.load(f)
     return encoders, kmeans
 
