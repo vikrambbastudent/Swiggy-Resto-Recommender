@@ -45,7 +45,7 @@ def get_base64_image(image_path: str) -> str:
 # ---------------------------
 # Hero (cover image at very top, NO text overlay)
 # ---------------------------
-cover_path = r"C:\Users\HP\Swiggy-Resto-Recommender\Your paragraph text.png"
+cover_path = r"C:\Users\HP\Swiggy-Resto-Recommender\cover.png"
 cover_base64 = get_base64_image(cover_path)
 
 st.markdown(
